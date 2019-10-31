@@ -1,5 +1,6 @@
 import React from 'react';
 import { characters, gifs } from '../content.json';
+import Card from './Card';
 
 export default function App() {
   return (
@@ -9,13 +10,7 @@ export default function App() {
           <h2>Characters</h2>
         </header>
         {characters.map(({ _id, name, image }) => (
-          <div key={_id}>
-            <header><h3>{name}</h3></header>
-            <figure>
-              <img src={image} alt={name} />
-            </figure>
-            <p>{name} has {_id}</p>
-          </div>
+          <Card _id={_id} name={name} image={image} />
         ))}
       </section>
       <section>
