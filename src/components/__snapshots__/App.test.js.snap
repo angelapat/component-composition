@@ -108,157 +108,51 @@ exports[`App component renders App 1`] = `
       ]
     }
   />
-  <section>
-    <div
-      key="5da23754845fd2cb76d59ef2"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59ef2
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59ef2"
-          src="https://media.tenor.com/images/e7623921965651fa6fba7e0c37892044/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59efc"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59efc
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59efc"
-          src="https://media.tenor.com/images/16f7138b0b2a94c37411622edba9e2fc/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59ef6"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59ef6
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59ef6"
-          src="https://media.tenor.com/images/fc08722ef63d4454822df23a48755860/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59eee"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59eee
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59eee"
-          src="https://media.tenor.com/images/ea128fb2a558c469bc7a58a1b2c5fc0e/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59f0d"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59f0d
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59f0d"
-          src="https://media.tenor.com/images/a33b7aead12bb93d93fb5f24f6b706b1/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59f0c"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59f0c
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59f0c"
-          src="https://media.tenor.com/images/af16c045741781e6d668e1db7f983b18/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59f0f"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59f0f
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59f0f"
-          src="https://media.tenor.com/images/c033f66256e7433a21251622b9553494/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59f07"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59f07
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59f07"
-          src="https://media.tenor.com/images/737f7e151678f7365954f0c4cbecbe9e/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59f0b"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59f0b
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59f0b"
-          src="https://media.tenor.com/images/8f6432a3fae8f961b38c107fb46f6722/tenor.gif"
-        />
-      </figure>
-    </div>
-    <div
-      key="5da23754845fd2cb76d59ef1"
-    >
-      <header>
-        <h3>
-          5da23754845fd2cb76d59ef1
-        </h3>
-      </header>
-      <figure>
-        <img
-          alt="5da23754845fd2cb76d59ef1"
-          src="https://media.tenor.com/images/3a66546a8abdb45084626a0f372cc5dd/tenor.gif"
-        />
-      </figure>
-    </div>
-  </section>
+  <Deck
+    characters={
+      Array [
+        Object {
+          "_id": "5da23754845fd2cb76d59ef2",
+          "image": "https://media.tenor.com/images/e7623921965651fa6fba7e0c37892044/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59efc",
+          "image": "https://media.tenor.com/images/16f7138b0b2a94c37411622edba9e2fc/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59ef6",
+          "image": "https://media.tenor.com/images/fc08722ef63d4454822df23a48755860/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59eee",
+          "image": "https://media.tenor.com/images/ea128fb2a558c469bc7a58a1b2c5fc0e/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59f0d",
+          "image": "https://media.tenor.com/images/a33b7aead12bb93d93fb5f24f6b706b1/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59f0c",
+          "image": "https://media.tenor.com/images/af16c045741781e6d668e1db7f983b18/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59f0f",
+          "image": "https://media.tenor.com/images/c033f66256e7433a21251622b9553494/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59f07",
+          "image": "https://media.tenor.com/images/737f7e151678f7365954f0c4cbecbe9e/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59f0b",
+          "image": "https://media.tenor.com/images/8f6432a3fae8f961b38c107fb46f6722/tenor.gif",
+        },
+        Object {
+          "_id": "5da23754845fd2cb76d59ef1",
+          "image": "https://media.tenor.com/images/3a66546a8abdb45084626a0f372cc5dd/tenor.gif",
+        },
+      ]
+    }
+  />
 </Fragment>
 `;
