@@ -1,12 +1,10 @@
 import React from 'react';
-import { characters, gifs } from '../content.json';
-import Deck from './DeckOfCards';
+import Characters from '../container/Characters';
 
 export default function App() {
   return (
     <>
-      <Deck characters={characters} />
-      <Deck characters={gifs} />
+      <Characters />
     </>
   );
 }
