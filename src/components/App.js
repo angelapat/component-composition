@@ -10,7 +10,7 @@ export default function App() {
           <h2>Characters</h2>
         </header>
         {characters.map(({ _id, name, image }) => (
-          <Card _id={_id} name={name} image={image} />
+          <Card key={_id} _id={_id} name={name} image={image} />
         ))}
       </section>
       <section>

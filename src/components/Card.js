@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export default function Card({ _id, name, image }) {
   return (
-    <div key={_id}>
+    <div >
       <header><h3>{name}</h3></header>
       <figure>
         <img src={image} alt={name} />
