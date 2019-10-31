@@ -1,18 +1,11 @@
 import React from 'react';
 import { characters, gifs } from '../content.json';
-import Card from './Card';
+import Deck from './Deck';
 
 export default function App() {
   return (
     <>
-      <section>
-        <header>
-          <h2>Characters</h2>
-        </header>
-        {characters.map(({ _id, name, image }) => (
-          <Card key={_id} _id={_id} name={name} image={image} />
-        ))}
-      </section>
+      <Deck characters={characters} />
       <section>
         {gifs.map(({ _id, image }) => (
           <div key={_id}>
