@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Deck from './DeckOfCards';
+import DeckOfCards from './DeckOfCards';
 
-describe('Deck component', () => {
+describe('DeckOfCards component', () => {
 
-  it('renders Deck', () => {
+  it('renders deck of cards', () => {
     const characters = [
       {
         _id: "5da23754845fd2cb76d59f0b",
@@ -16,7 +16,7 @@ describe('Deck component', () => {
         image: "https://vignette.wikia.nocookie.net/heyarnold/images/7/79/GrandpaPhil.png/revision/latest/scale-to-width-down/300?cb=20160924030436"
       }
     ] 
-    const deck = shallow(<Deck characters={characters} />
+    const deck = shallow(<DeckOfCards items={characters} />
     );
     expect(deck).toMatchSnapshot();
   });
