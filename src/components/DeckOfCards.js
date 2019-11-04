@@ -6,7 +6,7 @@ import Deck from './Deck';
 export default function DeckOfCards({ items }) {
   return (
     <Deck>
-      {items.map(({ _id, name, image }) => (
+      { items.map(({ _id, name, image }) => (
         <Card key={_id} _id={_id} name={name} image={image} />
       ))}
     </Deck>
