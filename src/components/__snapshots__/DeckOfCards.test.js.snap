@@ -1,7 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Deck component renders Deck 1`] = `
-<Deck>
+
+exports[`DeckOfCards component renders deck of cards 1`] = `
+<Deck
+  justify="center"
+>
   <Card
     _id="5da23754845fd2cb76d59f0b"
     image="https://media.tenor.com/images/8f6432a3fae8f961b38c107fb46f6722/tenor.gif"
