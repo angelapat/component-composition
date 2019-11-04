@@ -16,7 +16,7 @@ describe('Deck component', () => {
         image: "https://vignette.wikia.nocookie.net/heyarnold/images/7/79/GrandpaPhil.png/revision/latest/scale-to-width-down/300?cb=20160924030436"
       }
     ] 
-    const deck = shallow(<Deck characters={characters} />
+    const deck = shallow(<Deck items={characters} />
     );
     expect(deck).toMatchSnapshot();
   });

@@ -1,12 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Deck component renders Deck 1`] = `
-<section>
-  <header>
-    <h2>
-      Characters
-    </h2>
-  </header>
+<Deck>
   <Card
     _id="5da23754845fd2cb76d59f0b"
     image="https://media.tenor.com/images/8f6432a3fae8f961b38c107fb46f6722/tenor.gif"
@@ -18,5 +13,5 @@ exports[`Deck component renders Deck 1`] = `
     key="5da237699734fdcb7bef8f52"
     name="Grandpa Phil"
   />
-</section>
+</Deck>
 `;
